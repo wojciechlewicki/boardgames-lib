@@ -1,19 +1,33 @@
-import SearchForm from "./Navigation/SearchForm";
+import { useState } from "react";
+
+import SearchForm from "../../components/Navigation/SearchForm";
+import MobileNavModal from "../../components/Navigation/MobileNavModal";
 
 import { ReactComponent as Logo } from "../../assets/Logo.svg";
 import { ReactComponent as Hamburger } from "../../assets/Hamburger_menu.svg";
 import { Link } from "react-router-dom";
 
 import classes from "./Header.module.css";
-import Wrapper from "../ui/Wrapper";
+import Wrapper from "../../components/ui/Wrapper";
 
 const Header = () => {
+  const [mobileNavBarOpen, setMobileNavBarOpen] = useState(false);
+
+  const handleNavToogle = () => {
+    setMobileNavBarOpen((prevState) => {
+      return !prevState;
+    });
+  };
+
   return (
     <header className={`${classes.header} outer-wrapper`}>
       <Wrapper>
-        <div className="flex-row-center">
+        <MobileNavModal isOpen={mobileNavBarOpen} />
+        <div className={`${classes.headerLogoSignUp} flex-row-center`}>
           <div className="flex-row-center">
-            <Hamburger className={classes.headerIcon} />
+            <button onClick={handleNavToogle} className={classes.headerIcon}>
+              <Hamburger />
+            </button>
             <Logo />
           </div>
           <div className="flex-row-center">

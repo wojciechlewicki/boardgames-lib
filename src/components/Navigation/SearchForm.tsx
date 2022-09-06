@@ -1,4 +1,4 @@
-import { ReactComponent as Search } from "../../../assets/Search.svg";
+import { ReactComponent as Search } from "../../assets/Search.svg";
 import classes from "./SearchFrom.module.css";
 
 const selectOptions = [
@@ -21,7 +21,7 @@ const SearchForm = () => {
           <select className={classes.searchFormSelect}>
             {selectOptions.map((selectOption) => {
               return (
-                <option value={selectOption.value}>{selectOption.name}</option>
+                <option key={selectOption.value} value={selectOption.value}>{selectOption.name}</option>
               );
             })}
           </select>

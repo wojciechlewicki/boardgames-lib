@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import Header from './components/Header/Header';
+import Header from './layouts/Header';
 
 
 function App() {
