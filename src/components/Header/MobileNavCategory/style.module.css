@@ -1,0 +1,33 @@
+.mobileNavElement {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  padding: 0.8em 2em;
+  border-bottom: 1px solid grey;
+}
+
+.mobileNavButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8em 1em;
+}
+
+.mobileNavButtonOpen {
+  background-color: grey;
+}
+
+.mobileNavButtonIcon {
+  display: inline;
+  height: 1em;
+  width: auto;
+}
+
+.mobileNavList {
+  display: none;
+}
+
+.open {
+  display: block;
+}
