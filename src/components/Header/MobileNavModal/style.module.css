@@ -12,3 +12,8 @@
 .mobileNavOpen {
   display: block;
 }
+
+.mobileNavList {
+  height: 100%;
+  overflow-y: scroll;
+}

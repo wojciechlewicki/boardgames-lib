@@ -1,14 +1,14 @@
 import { useState } from "react";
 
-import SearchForm from "../../components/Navigation/SearchForm";
-import MobileNavModal from "../../components/Navigation/MobileNavModal";
+import SearchForm from "./SearchForm";
+import MobileNavModal from "./MobileNavModal";
 
 import { ReactComponent as Logo } from "../../assets/Logo.svg";
 import { ReactComponent as Hamburger } from "../../assets/Hamburger_menu.svg";
 import { Link } from "react-router-dom";
 
-import classes from "./Header.module.css";
-import Wrapper from "../../components/ui/Wrapper";
+import classes from "./style.module.css";
+import Wrapper from "../ui/Wrapper";
 
 const Header = () => {
   const [mobileNavBarOpen, setMobileNavBarOpen] = useState(false);

@@ -1,4 +1,4 @@
-import classes from "./Wrapper.module.css";
+import classes from "./styles.module.css";
 
 type Props = {
   children?: React.ReactNode;
