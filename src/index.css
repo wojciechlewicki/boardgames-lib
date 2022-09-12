@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+
 body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -21,12 +22,17 @@ ul {
   list-style: none;
 }
 
-input, select, button {
+input,
+select,
+button {
   border: none;
   background-color: white;
 }
 
-textarea:focus, input:focus, button:focus{
+textarea:focus,
+input:focus,
+button:focus,
+select:focus {
   outline: none;
 }
 
