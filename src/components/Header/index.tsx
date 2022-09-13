@@ -31,10 +31,10 @@ const Header = () => {
             <Logo />
           </div>
           <div className="flex-row-center">
-            <Link to="" className={classes.headerIcon}>
+            <Link to="login" className={classes.headerIcon}>
               Sign In
             </Link>
-            <Link to="">Sign Up</Link>
+            <Link to="register">Sign Up</Link>
           </div>
         </div>
         <SearchForm />
