@@ -28,13 +28,15 @@ const Header = () => {
             <button onClick={handleNavToogle} className={classes.headerIcon}>
               <Hamburger />
             </button>
-            <Logo />
+            <Link to="/">
+              <Logo />
+            </Link>
           </div>
           <div className="flex-row-center">
-            <Link to="login" className={classes.headerIcon}>
+            <Link to="register" className={classes.headerIcon}>
               Sign In
             </Link>
-            <Link to="register">Sign Up</Link>
+            <Link to="login">Sign Up</Link>
           </div>
         </div>
         <SearchForm />

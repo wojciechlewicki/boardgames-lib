@@ -1,5 +1,7 @@
+import CredentialsForm from "../../components/CredentialsForm";
+
 const Register = () => {
-    return <form></form>
+  return <CredentialsForm info="Log in with email and password"/>;
 };
 
 export default Register;
