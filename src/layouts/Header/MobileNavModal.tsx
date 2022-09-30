@@ -1,9 +1,9 @@
 import { Fragment, useState } from "react";
 import ReactDOM from "react-dom";
 
-import MobileNavCategory from "../MobileNavCategory";
-import { MobileNavCategories } from "../types";
-import classes from "./style.module.css";
+import MobileNavCategory from "./MobileNavCategory";
+import { MobileNavCategories } from "./types";
+import classes from "./MobileNavModal.module.css";
 
 const navBarCategories: MobileNavCategories[] = [
   {

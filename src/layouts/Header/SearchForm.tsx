@@ -1,5 +1,5 @@
-import { ReactComponent as Search } from "../../../assets/Search.svg";
-import classes from "./style.module.css";
+import { ReactComponent as Search } from "../../assets/Search.svg";
+import classes from "./SearchForm.module.css";
 
 const selectOptions = [
   { name: "Board games", value: "boardgames" },

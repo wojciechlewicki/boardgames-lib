@@ -1,4 +1,4 @@
-import classes from "./style.module.css";
+import classes from "./CredentialsForm.module.css";
 
 import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from "../../assets/Logo.svg";

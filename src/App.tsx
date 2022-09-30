@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import Header from "./components/Header";
+import Header from "./layouts/Header";
 
 import { Route, Routes } from "react-router-dom";
 import { useLocation } from "react-router-dom";
