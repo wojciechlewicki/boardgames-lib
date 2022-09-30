@@ -1,4 +1,4 @@
-import TrendingCarousel from "../../components/TrendingCarousel";
+import TrendingCarousel from "../../components/MainPage/TrendingCarousel";
 
 const MainPage = () => {
   return (

@@ -7,8 +7,8 @@ import { ReactComponent as Logo } from "../../assets/Logo.svg";
 import { ReactComponent as Hamburger } from "../../assets/Hamburger_menu.svg";
 import { Link } from "react-router-dom";
 
-import classes from "./style.module.css";
-import Wrapper from "../ui/Wrapper";
+import classes from "./index.module.css";
+import Wrapper from "../../components/ui/Wrapper";
 
 const Header = () => {
   const [mobileNavBarOpen, setMobileNavBarOpen] = useState(false);
