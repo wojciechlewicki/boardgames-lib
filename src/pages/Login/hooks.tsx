@@ -7,7 +7,7 @@ export const useLoginWithEmail = () => {
 
   useEffect(() => {
     async function fetchData() {
-      const data = await loginWithEmail("email", "password");
+      const data = await loginWithEmail("wojtek4567@o2.pl", "test12");
       setData(data);
       setIsLoading(false);
     }
